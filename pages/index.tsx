@@ -7,6 +7,7 @@ import { services } from "../data";
 import { fadeInUp, routeAnimation, stagger } from "../framer";
 
 export default function Home({ endpoint }) {
+  console.log(endpoint)
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h3 className="my-3 font-medium">
