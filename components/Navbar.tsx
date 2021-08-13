@@ -23,7 +23,7 @@ const NavItem: FunctionComponent<{
 };
 
 const Navbar = () => {
-  const [activeItem, setActiveItem] = useState<string>("");
+  const [activeItem, setActiveItem] = useState<string>("Active");
   const { pathname } = useRouter();
   useEffect(() => {
     if (pathname === "/") setActiveItem("About");
