@@ -45,7 +45,7 @@ export default function Home({ endpoint }) {
 export const getServerSideProps: GetServerSideProps = async (
   context: GetServerSidePropsContext
 ) => {
-  const res = await fetch(`${process.env.URL}/api/services/`);
+  const res = await fetch(`${process.env.URL}/api/services`);
   const data = await res.json();
   return {
     props: {
