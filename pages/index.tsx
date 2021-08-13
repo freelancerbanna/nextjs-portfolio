@@ -31,8 +31,6 @@ export default function Home({ endpoint }) {
               key={service.title}
               className="bg-gray-100 rounded-lg dark:bg-dark-500 lg:col-span-1"
               variants={fadeInUp}
-              initial="initial"
-              animate="animate"
             >
               <ServiceCard service={service} />
             </motion.div>
